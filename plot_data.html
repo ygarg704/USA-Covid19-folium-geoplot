@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6201869237324af680468ddf6e2b62fd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6201869237324af680468ddf6e2b62fd" ></div>
+        
+</body>
+<script>    
+    
+            var map_6201869237324af680468ddf6e2b62fd = L.map(
+                "map_6201869237324af680468ddf6e2b62fd",
+                {
+                    center: [37.778261, -100.417932],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8d0130a5317d4af78d6b8938141c897f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var circle_marker_9c0ea6eff63f4d82a71937d48901724d = L.circleMarker(
+                [32.318231, -86.902298],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_d8bf94ade93b47269e91895afe495695 = L.marker(
+                [32.318231, -86.902298],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_282eba1b704a4163a577853331562c6a = L.popup({"maxWidth": 200});
+
+        
+            var html_20cfdd4b72bf42b286a0318408a97abe = $(`<div id="html_20cfdd4b72bf42b286a0318408a97abe" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Alabama</strong> <br><strong><b>Total Cases : 51294</striong><br><strong><font color= red>Deaths : </font>1086</striong><br><strong><font color=green>Recovered : </font>22082</striong><br></div>`)[0];
+            popup_282eba1b704a4163a577853331562c6a.setContent(html_20cfdd4b72bf42b286a0318408a97abe);
+        
+
+        marker_d8bf94ade93b47269e91895afe495695.bindPopup(popup_282eba1b704a4163a577853331562c6a)
+        ;
+
+        
+    
+    
+            var circle_marker_e1f98c3908d246b3940cfa6c25690dcd = L.circleMarker(
+                [63.588753000000004, -154.493062],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_45665cdb88244f178cafece25a6e90c1 = L.marker(
+                [63.588753000000004, -154.493062],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_3d199c3a4ba5415a8648d3e9dfc003e4 = L.popup({"maxWidth": 200});
+
+        
+            var html_cd542b82101149cba76c4a26e2d9acd0 = $(`<div id="html_cd542b82101149cba76c4a26e2d9acd0" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Alaska</strong> <br><strong><b>Total Cases : 1184</striong><br><strong><font color= red>Deaths : </font>17</striong><br><strong><font color=green>Recovered : </font>560</striong><br></div>`)[0];
+            popup_3d199c3a4ba5415a8648d3e9dfc003e4.setContent(html_cd542b82101149cba76c4a26e2d9acd0);
+        
+
+        marker_45665cdb88244f178cafece25a6e90c1.bindPopup(popup_3d199c3a4ba5415a8648d3e9dfc003e4)
+        ;
+
+        
+    
+    
+            var circle_marker_b2063ab7791141cbba239db60d237f28 = L.circleMarker(
+                [34.048928000000004, -111.093731],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_c5e0654665614c0cb73d2ba62a4604cf = L.marker(
+                [34.048928000000004, -111.093731],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_1cf8296bec804a878c4793e3a6399ee7 = L.popup({"maxWidth": 200});
+
+        
+            var html_b5994e07c2ba448390250c6c43119f2c = $(`<div id="html_b5994e07c2ba448390250c6c43119f2c" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Arizona</strong> <br><strong><b>Total Cases : 116892</striong><br><strong><font color= red>Deaths : </font>2082</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_1cf8296bec804a878c4793e3a6399ee7.setContent(html_b5994e07c2ba448390250c6c43119f2c);
+        
+
+        marker_c5e0654665614c0cb73d2ba62a4604cf.bindPopup(popup_1cf8296bec804a878c4793e3a6399ee7)
+        ;
+
+        
+    
+    
+            var circle_marker_5bc365a6649446758c02a4e988593cc2 = L.circleMarker(
+                [35.20105, -91.83183299999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_89ddfce8036f41fbb7ce2902df198569 = L.marker(
+                [35.20105, -91.83183299999999],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_eb11aceeab594765b0b218966cbd3fdd = L.popup({"maxWidth": 200});
+
+        
+            var html_dcb8e755e42f4163a1c2ddcf5d26ab01 = $(`<div id="html_dcb8e755e42f4163a1c2ddcf5d26ab01" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Arkansas</strong> <br><strong><b>Total Cases : 24253</striong><br><strong><font color= red>Deaths : </font>292</striong><br><strong><font color=green>Recovered : </font>17834</striong><br></div>`)[0];
+            popup_eb11aceeab594765b0b218966cbd3fdd.setContent(html_dcb8e755e42f4163a1c2ddcf5d26ab01);
+        
+
+        marker_89ddfce8036f41fbb7ce2902df198569.bindPopup(popup_eb11aceeab594765b0b218966cbd3fdd)
+        ;
+
+        
+    
+    
+            var circle_marker_7efad4f8098043db9c4de90f486fd01f = L.circleMarker(
+                [36.778261, -119.41793200000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_619d994971e64131b671bb911565491f = L.marker(
+                [36.778261, -119.41793200000001],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_7366a53bf71a44e4beab2546384f9611 = L.popup({"maxWidth": 200});
+
+        
+            var html_152f4c7ce3f54453bf9e5d61b94a4406 = $(`<div id="html_152f4c7ce3f54453bf9e5d61b94a4406" style="width: 100.0%; height: 100.0%;"><strong><b>State  : California</strong> <br><strong><b>Total Cases : 296499</striong><br><strong><font color= red>Deaths : </font>6711</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_7366a53bf71a44e4beab2546384f9611.setContent(html_152f4c7ce3f54453bf9e5d61b94a4406);
+        
+
+        marker_619d994971e64131b671bb911565491f.bindPopup(popup_7366a53bf71a44e4beab2546384f9611)
+        ;
+
+        
+    
+    
+            var circle_marker_b9a065bfb94b41329d8a6f48c64b149b = L.circleMarker(
+                [39.550051, -105.782067],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_9db326cb7c7845d186c764831eeb608e = L.marker(
+                [39.550051, -105.782067],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_b97dedda31ff4d32aef67a7a2d908b4f = L.popup({"maxWidth": 200});
+
+        
+            var html_0498b978b29e4979813fbc3d1e38be7c = $(`<div id="html_0498b978b29e4979813fbc3d1e38be7c" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Colorado</strong> <br><strong><b>Total Cases : 34316</striong><br><strong><font color= red>Deaths : </font>1704</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_b97dedda31ff4d32aef67a7a2d908b4f.setContent(html_0498b978b29e4979813fbc3d1e38be7c);
+        
+
+        marker_9db326cb7c7845d186c764831eeb608e.bindPopup(popup_b97dedda31ff4d32aef67a7a2d908b4f)
+        ;
+
+        
+    
+    
+            var circle_marker_9cb3205934c044408fe1345875ace2e2 = L.circleMarker(
+                [41.603221000000005, -73.087749],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_8322bfe35bee4fe883750a87c191dbe3 = L.marker(
+                [41.603221000000005, -73.087749],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_c87ecd43acbe4de19d532eab824bdfe1 = L.popup({"maxWidth": 200});
+
+        
+            var html_b5fc9719a30a4e55b7ec6f301af8a15b = $(`<div id="html_b5fc9719a30a4e55b7ec6f301af8a15b" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Connecticut</strong> <br><strong><b>Total Cases : 46976</striong><br><strong><font color= red>Deaths : </font>4338</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_c87ecd43acbe4de19d532eab824bdfe1.setContent(html_b5fc9719a30a4e55b7ec6f301af8a15b);
+        
+
+        marker_8322bfe35bee4fe883750a87c191dbe3.bindPopup(popup_c87ecd43acbe4de19d532eab824bdfe1)
+        ;
+
+        
+    
+    
+            var circle_marker_63c22d5ae23046c680b1fd0d9d7a45d1 = L.circleMarker(
+                [38.910832, -75.52767],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_57aa931a2f544929a7fcc52ad9a3abc9 = L.marker(
+                [38.910832, -75.52767],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_1fa0d29439044665b15468f7229ef88e = L.popup({"maxWidth": 200});
+
+        
+            var html_0dc5c4f9475a433ca16b53f159bfb42c = $(`<div id="html_0dc5c4f9475a433ca16b53f159bfb42c" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Delaware</strong> <br><strong><b>Total Cases : 12293</striong><br><strong><font color= red>Deaths : </font>512</striong><br><strong><font color=green>Recovered : </font>6778</striong><br></div>`)[0];
+            popup_1fa0d29439044665b15468f7229ef88e.setContent(html_0dc5c4f9475a433ca16b53f159bfb42c);
+        
+
+        marker_57aa931a2f544929a7fcc52ad9a3abc9.bindPopup(popup_1fa0d29439044665b15468f7229ef88e)
+        ;
+
+        
+    
+    
+            var circle_marker_76c64775983b41fcb7ca4f92d5f46401 = L.circleMarker(
+                [38.905985, -77.03341800000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_e9fcb2f7bdd44f69a7fabcf56d425fb1 = L.marker(
+                [38.905985, -77.03341800000001],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_f14ee0aa9a024ffdba3255a6eaef7094 = L.popup({"maxWidth": 200});
+
+        
+            var html_fed30cc74a8c481ca9ebd16ec5d10473 = $(`<div id="html_fed30cc74a8c481ca9ebd16ec5d10473" style="width: 100.0%; height: 100.0%;"><strong><b>State  : District of Columbia</strong> <br><strong><b>Total Cases : 10569</striong><br><strong><font color= red>Deaths : </font>561</striong><br><strong><font color=green>Recovered : </font>1465</striong><br></div>`)[0];
+            popup_f14ee0aa9a024ffdba3255a6eaef7094.setContent(html_fed30cc74a8c481ca9ebd16ec5d10473);
+        
+
+        marker_e9fcb2f7bdd44f69a7fabcf56d425fb1.bindPopup(popup_f14ee0aa9a024ffdba3255a6eaef7094)
+        ;
+
+        
+    
+    
+            var circle_marker_ed3f85a4aa114a75bf653bf1be7bcad0 = L.circleMarker(
+                [27.664827000000002, -81.515754],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_0ab1e8cc3dc245ecb277f159281a2ded = L.marker(
+                [27.664827000000002, -81.515754],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_cce3624f39ac45e39c028c97422d0ea5 = L.popup({"maxWidth": 200});
+
+        
+            var html_aa8a3538d5f44c93bb8ceda2527e1789 = $(`<div id="html_aa8a3538d5f44c93bb8ceda2527e1789" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Florida</strong> <br><strong><b>Total Cases : 244151</striong><br><strong><font color= red>Deaths : </font>4102</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_cce3624f39ac45e39c028c97422d0ea5.setContent(html_aa8a3538d5f44c93bb8ceda2527e1789);
+        
+
+        marker_0ab1e8cc3dc245ecb277f159281a2ded.bindPopup(popup_cce3624f39ac45e39c028c97422d0ea5)
+        ;
+
+        
+    
+    
+            var circle_marker_9ed073a022f9442db32d92806f5bcac3 = L.circleMarker(
+                [32.157435, -82.907123],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_9593cd820947431a8174ad0962c269f5 = L.marker(
+                [32.157435, -82.907123],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_ea5e5ec18962471abb3726bbb8ade4d0 = L.popup({"maxWidth": 200});
+
+        
+            var html_80e7d4ddeb5f48a09ab9197cbe7940bb = $(`<div id="html_80e7d4ddeb5f48a09ab9197cbe7940bb" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Georgia</strong> <br><strong><b>Total Cases : 111211</striong><br><strong><font color= red>Deaths : </font>2965</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_ea5e5ec18962471abb3726bbb8ade4d0.setContent(html_80e7d4ddeb5f48a09ab9197cbe7940bb);
+        
+
+        marker_9593cd820947431a8174ad0962c269f5.bindPopup(popup_ea5e5ec18962471abb3726bbb8ade4d0)
+        ;
+
+        
+    
+    
+            var circle_marker_ad83dc28b1ec4e1a9ecce3257c71ae0a = L.circleMarker(
+                [19.898682, -155.66585700000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_5877418ddfc84682a744754f0bd78130 = L.marker(
+                [19.898682, -155.66585700000002],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_d90c253b4a094870843e59eba94f8dff = L.popup({"maxWidth": 200});
+
+        
+            var html_ef77d2e10df048a1977b2655d03422f7 = $(`<div id="html_ef77d2e10df048a1977b2655d03422f7" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Hawaii</strong> <br><strong><b>Total Cases : 1012</striong><br><strong><font color= red>Deaths : </font>19</striong><br><strong><font color=green>Recovered : </font>746</striong><br></div>`)[0];
+            popup_d90c253b4a094870843e59eba94f8dff.setContent(html_ef77d2e10df048a1977b2655d03422f7);
+        
+
+        marker_5877418ddfc84682a744754f0bd78130.bindPopup(popup_d90c253b4a094870843e59eba94f8dff)
+        ;
+
+        
+    
+    
+            var circle_marker_9cb662c9cd4d4979bc4fc43b1d0b6e6d = L.circleMarker(
+                [44.068202, -114.74204099999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_4494054c53f64ecdb20226ec7207f898 = L.marker(
+                [44.068202, -114.74204099999999],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_aa4eb2ce2c9a4b9aa6c6d9d1ef8749f6 = L.popup({"maxWidth": 200});
+
+        
+            var html_3c3e7a7694c34ce5a7a627718d97d51e = $(`<div id="html_3c3e7a7694c34ce5a7a627718d97d51e" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Idaho</strong> <br><strong><b>Total Cases : 8222</striong><br><strong><font color= red>Deaths : </font>94</striong><br><strong><font color=green>Recovered : </font>2886</striong><br></div>`)[0];
+            popup_aa4eb2ce2c9a4b9aa6c6d9d1ef8749f6.setContent(html_3c3e7a7694c34ce5a7a627718d97d51e);
+        
+
+        marker_4494054c53f64ecdb20226ec7207f898.bindPopup(popup_aa4eb2ce2c9a4b9aa6c6d9d1ef8749f6)
+        ;
+
+        
+    
+    
+            var circle_marker_7660a3cd67a8472f9ba00dabee14fba3 = L.circleMarker(
+                [40.633125, -89.398528],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_c3101c37de9541389dcfb65764235045 = L.marker(
+                [40.633125, -89.398528],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_be4c151fbf6c4bc193b8b69ca3e32bb4 = L.popup({"maxWidth": 200});
+
+        
+            var html_b0575ba2275f4369b6edc6b5e8678797 = $(`<div id="html_b0575ba2275f4369b6edc6b5e8678797" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Illinois</strong> <br><strong><b>Total Cases : 151767</striong><br><strong><font color= red>Deaths : </font>7144</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_be4c151fbf6c4bc193b8b69ca3e32bb4.setContent(html_b0575ba2275f4369b6edc6b5e8678797);
+        
+
+        marker_c3101c37de9541389dcfb65764235045.bindPopup(popup_be4c151fbf6c4bc193b8b69ca3e32bb4)
+        ;
+
+        
+    
+    
+            var circle_marker_b7752785bc9345e88d871d13801394f3 = L.circleMarker(
+                [40.551217, -85.602364],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_fefecd0aa4704ee283b8160b73789665 = L.marker(
+                [40.551217, -85.602364],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_1dca988b710d4fb5899f268bd8a97f32 = L.popup({"maxWidth": 200});
+
+        
+            var html_829c282a69e54552b4c520340173e157 = $(`<div id="html_829c282a69e54552b4c520340173e157" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Indiana</strong> <br><strong><b>Total Cases : 49560</striong><br><strong><font color= red>Deaths : </font>2698</striong><br><strong><font color=green>Recovered : </font>36788</striong><br></div>`)[0];
+            popup_1dca988b710d4fb5899f268bd8a97f32.setContent(html_829c282a69e54552b4c520340173e157);
+        
+
+        marker_fefecd0aa4704ee283b8160b73789665.bindPopup(popup_1dca988b710d4fb5899f268bd8a97f32)
+        ;
+
+        
+    
+    
+            var circle_marker_34e3242311fc4246b7deb44273f20835 = L.circleMarker(
+                [41.878003, -93.097702],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_dbf05e5b434d48e8a17f68a2ade9814f = L.marker(
+                [41.878003, -93.097702],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_5aabdf7a4f304852b52f07e37bcaf792 = L.popup({"maxWidth": 200});
+
+        
+            var html_98dc37a3096a4a4db5f324ebf93af60a = $(`<div id="html_98dc37a3096a4a4db5f324ebf93af60a" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Iowa</strong> <br><strong><b>Total Cases : 31906</striong><br><strong><font color= red>Deaths : </font>725</striong><br><strong><font color=green>Recovered : </font>24242</striong><br></div>`)[0];
+            popup_5aabdf7a4f304852b52f07e37bcaf792.setContent(html_98dc37a3096a4a4db5f324ebf93af60a);
+        
+
+        marker_dbf05e5b434d48e8a17f68a2ade9814f.bindPopup(popup_5aabdf7a4f304852b52f07e37bcaf792)
+        ;
+
+        
+    
+    
+            var circle_marker_666561e60aa049d9b69fa22bad49cf01 = L.circleMarker(
+                [39.011902, -98.484246],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_53cc700ca7474702908ff659e25afb54 = L.marker(
+                [39.011902, -98.484246],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_27d2bc9624364e4abac5e31faeae3a66 = L.popup({"maxWidth": 200});
+
+        
+            var html_dc6c9c19d83241aa8e23e220f9ecbb47 = $(`<div id="html_dc6c9c19d83241aa8e23e220f9ecbb47" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Kansas</strong> <br><strong><b>Total Cases : 18611</striong><br><strong><font color= red>Deaths : </font>284</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_27d2bc9624364e4abac5e31faeae3a66.setContent(html_dc6c9c19d83241aa8e23e220f9ecbb47);
+        
+
+        marker_53cc700ca7474702908ff659e25afb54.bindPopup(popup_27d2bc9624364e4abac5e31faeae3a66)
+        ;
+
+        
+    
+    
+            var circle_marker_581cd00223ad44baa868a515d562b637 = L.circleMarker(
+                [37.839333, -84.27001800000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_b0480d9381be422f9a195743732ac68c = L.marker(
+                [37.839333, -84.27001800000001],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_adc4dbd2601746aaa2ba8c4e7981d4c3 = L.popup({"maxWidth": 200});
+
+        
+            var html_10755da40bc84a00893ca11dab563240 = $(`<div id="html_10755da40bc84a00893ca11dab563240" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Kentucky</strong> <br><strong><b>Total Cases : 17526</striong><br><strong><font color= red>Deaths : </font>623</striong><br><strong><font color=green>Recovered : </font>4785</striong><br></div>`)[0];
+            popup_adc4dbd2601746aaa2ba8c4e7981d4c3.setContent(html_10755da40bc84a00893ca11dab563240);
+        
+
+        marker_b0480d9381be422f9a195743732ac68c.bindPopup(popup_adc4dbd2601746aaa2ba8c4e7981d4c3)
+        ;
+
+        
+    
+    
+            var circle_marker_0ef07ad092ed4628a4f1c2ddad1d07e3 = L.circleMarker(
+                [31.244822999999997, -92.14502399999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_da2f13657c074b4abc8a627a2d32f66f = L.marker(
+                [31.244822999999997, -92.14502399999999],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_eafaf1f323e74793bbf2eb5d7aff48ed = L.popup({"maxWidth": 200});
+
+        
+            var html_378ae00d14674194af23f6d872b91c96 = $(`<div id="html_378ae00d14674194af23f6d872b91c96" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Louisiana</strong> <br><strong><b>Total Cases : 66435</striong><br><strong><font color= red>Deaths : </font>3296</striong><br><strong><font color=green>Recovered : </font>43026</striong><br></div>`)[0];
+            popup_eafaf1f323e74793bbf2eb5d7aff48ed.setContent(html_378ae00d14674194af23f6d872b91c96);
+        
+
+        marker_da2f13657c074b4abc8a627a2d32f66f.bindPopup(popup_eafaf1f323e74793bbf2eb5d7aff48ed)
+        ;
+
+        
+    
+    
+            var circle_marker_206112c72b85414cb059f7b1c675c842 = L.circleMarker(
+                [45.253783, -69.44546899999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_d390cf63d17546069a3e983f00fc1783 = L.marker(
+                [45.253783, -69.44546899999999],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_913beec715514e239d8c385fcfcf4da5 = L.popup({"maxWidth": 200});
+
+        
+            var html_7efe08b3a4c64511a8b4e6deb6e2b476 = $(`<div id="html_7efe08b3a4c64511a8b4e6deb6e2b476" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Maine</strong> <br><strong><b>Total Cases : 3440</striong><br><strong><font color= red>Deaths : </font>110</striong><br><strong><font color=green>Recovered : </font>2787</striong><br></div>`)[0];
+            popup_913beec715514e239d8c385fcfcf4da5.setContent(html_7efe08b3a4c64511a8b4e6deb6e2b476);
+        
+
+        marker_d390cf63d17546069a3e983f00fc1783.bindPopup(popup_913beec715514e239d8c385fcfcf4da5)
+        ;
+
+        
+    
+    
+            var circle_marker_b3a9813dfecb4fc8a2973496f9039843 = L.circleMarker(
+                [39.045755, -76.641271],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_ccc88d0c19974eddb421ac22ce008941 = L.marker(
+                [39.045755, -76.641271],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_e70d908bf40f4ed1b24a8e783ccac986 = L.popup({"maxWidth": 200});
+
+        
+            var html_5c3d8b69a7604a7b8583967ca035bded = $(`<div id="html_5c3d8b69a7604a7b8583967ca035bded" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Maryland</strong> <br><strong><b>Total Cases : 70497</striong><br><strong><font color= red>Deaths : </font>3246</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_e70d908bf40f4ed1b24a8e783ccac986.setContent(html_5c3d8b69a7604a7b8583967ca035bded);
+        
+
+        marker_ccc88d0c19974eddb421ac22ce008941.bindPopup(popup_e70d908bf40f4ed1b24a8e783ccac986)
+        ;
+
+        
+    
+    
+            var circle_marker_04354f0f6c7342c9b619e45c8a950581 = L.circleMarker(
+                [42.407211, -71.382437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_0679a8de906e42208b1e7d4820810e7d = L.marker(
+                [42.407211, -71.382437],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_09fcc42ae07f4666ae31d353c2630c91 = L.popup({"maxWidth": 200});
+
+        
+            var html_b38d38736506486b8136bf27d3bb3d72 = $(`<div id="html_b38d38736506486b8136bf27d3bb3d72" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Massachusetts</strong> <br><strong><b>Total Cases : 111110</striong><br><strong><font color= red>Deaths : </font>8296</striong><br><strong><font color=green>Recovered : </font>88725</striong><br></div>`)[0];
+            popup_09fcc42ae07f4666ae31d353c2630c91.setContent(html_b38d38736506486b8136bf27d3bb3d72);
+        
+
+        marker_0679a8de906e42208b1e7d4820810e7d.bindPopup(popup_09fcc42ae07f4666ae31d353c2630c91)
+        ;
+
+        
+    
+    
+            var circle_marker_1e246962141a49a6bfb0e964f35fbb9e = L.circleMarker(
+                [44.314844, -85.602364],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_238cead347764132a951c6db79fa8d92 = L.marker(
+                [44.314844, -85.602364],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_1a4d715d4b3d4fcab522ac96eff863c3 = L.popup({"maxWidth": 200});
+
+        
+            var html_6e843700793e4e89aff84088600e8775 = $(`<div id="html_6e843700793e4e89aff84088600e8775" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Michigan</strong> <br><strong><b>Total Cases : 73403</striong><br><strong><font color= red>Deaths : </font>6225</striong><br><strong><font color=green>Recovered : </font>52841</striong><br></div>`)[0];
+            popup_1a4d715d4b3d4fcab522ac96eff863c3.setContent(html_6e843700793e4e89aff84088600e8775);
+        
+
+        marker_238cead347764132a951c6db79fa8d92.bindPopup(popup_1a4d715d4b3d4fcab522ac96eff863c3)
+        ;
+
+        
+    
+    
+            var circle_marker_792a3155d4a64353b181f089cb02c5d3 = L.circleMarker(
+                [46.729553, -94.6859],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_570bf48d16ad40898a5a273ca235c0c9 = L.marker(
+                [46.729553, -94.6859],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_a8d2d697d35b4f528dd1b0525992052d = L.popup({"maxWidth": 200});
+
+        
+            var html_3f384f4fff074ab5ad0797c0f7c4687e = $(`<div id="html_3f384f4fff074ab5ad0797c0f7c4687e" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Minnesota</strong> <br><strong><b>Total Cases : 38606</striong><br><strong><font color= red>Deaths : </font>1511</striong><br><strong><font color=green>Recovered : </font>33907</striong><br></div>`)[0];
+            popup_a8d2d697d35b4f528dd1b0525992052d.setContent(html_3f384f4fff074ab5ad0797c0f7c4687e);
+        
+
+        marker_570bf48d16ad40898a5a273ca235c0c9.bindPopup(popup_a8d2d697d35b4f528dd1b0525992052d)
+        ;
+
+        
+    
+    
+            var circle_marker_37b559860d434feea562c8610d56bed8 = L.circleMarker(
+                [32.354668, -89.398528],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_f6d86743e71240fcbd18a805b9b1c2dd = L.marker(
+                [32.354668, -89.398528],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_0e43e2a4f3894576a352e5907428cbf8 = L.popup({"maxWidth": 200});
+
+        
+            var html_e925f49e0a104c4d85a25397ccef4aa4 = $(`<div id="html_e925f49e0a104c4d85a25397ccef4aa4" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Mississippi</strong> <br><strong><b>Total Cases : 31257</striong><br><strong><font color= red>Deaths : </font>1114</striong><br><strong><font color=green>Recovered : </font>22167</striong><br></div>`)[0];
+            popup_0e43e2a4f3894576a352e5907428cbf8.setContent(html_e925f49e0a104c4d85a25397ccef4aa4);
+        
+
+        marker_f6d86743e71240fcbd18a805b9b1c2dd.bindPopup(popup_0e43e2a4f3894576a352e5907428cbf8)
+        ;
+
+        
+    
+    
+            var circle_marker_42a128e9210849dbb5ea466f1dbbee06 = L.circleMarker(
+                [37.964253, -91.83183299999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_91560720b57647e6a4401ff1a751818e = L.marker(
+                [37.964253, -91.83183299999999],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_b59b0256a2ed4dd3b8e8e1e4987b4cf5 = L.popup({"maxWidth": 200});
+
+        
+            var html_2879aaf549e44b7f95f907b675c75a4d = $(`<div id="html_2879aaf549e44b7f95f907b675c75a4d" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Missouri</strong> <br><strong><b>Total Cases : 24985</striong><br><strong><font color= red>Deaths : </font>1077</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_b59b0256a2ed4dd3b8e8e1e4987b4cf5.setContent(html_2879aaf549e44b7f95f907b675c75a4d);
+        
+
+        marker_91560720b57647e6a4401ff1a751818e.bindPopup(popup_b59b0256a2ed4dd3b8e8e1e4987b4cf5)
+        ;
+
+        
+    
+    
+            var circle_marker_f361e31cd1954b6ba126145d8ae246b1 = L.circleMarker(
+                [46.879682, -110.36256599999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_4126222cc2f44e15bcb5fb9960859ed1 = L.marker(
+                [46.879682, -110.36256599999999],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_602ba2cf3e474595992c552ad9112647 = L.popup({"maxWidth": 200});
+
+        
+            var html_7021afc34b284e8f8072455b2b9d4658 = $(`<div id="html_7021afc34b284e8f8072455b2b9d4658" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Montana</strong> <br><strong><b>Total Cases : 1249</striong><br><strong><font color= red>Deaths : </font>23</striong><br><strong><font color=green>Recovered : </font>678</striong><br></div>`)[0];
+            popup_602ba2cf3e474595992c552ad9112647.setContent(html_7021afc34b284e8f8072455b2b9d4658);
+        
+
+        marker_4126222cc2f44e15bcb5fb9960859ed1.bindPopup(popup_602ba2cf3e474595992c552ad9112647)
+        ;
+
+        
+    
+    
+            var circle_marker_493e9317489648f6a3d48685324fcb2b = L.circleMarker(
+                [41.492537, -99.901813],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_c681e50f0ac54e3faffa2c006fa532c0 = L.marker(
+                [41.492537, -99.901813],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_9ba987fbd2904138af990f42e883319a = L.popup({"maxWidth": 200});
+
+        
+            var html_382c11e30fae4f688dbb33509f2e3939 = $(`<div id="html_382c11e30fae4f688dbb33509f2e3939" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Nebraska</strong> <br><strong><b>Total Cases : 20053</striong><br><strong><font color= red>Deaths : </font>286</striong><br><strong><font color=green>Recovered : </font>14641</striong><br></div>`)[0];
+            popup_9ba987fbd2904138af990f42e883319a.setContent(html_382c11e30fae4f688dbb33509f2e3939);
+        
+
+        marker_c681e50f0ac54e3faffa2c006fa532c0.bindPopup(popup_9ba987fbd2904138af990f42e883319a)
+        ;
+
+        
+    
+    
+            var circle_marker_2c37ef7fdb5e4d0c81d19b70c8acf923 = L.circleMarker(
+                [38.802609999999994, -116.419389],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_d4a97484853d4f01a1e6ed4aa179e46d = L.marker(
+                [38.802609999999994, -116.419389],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_4a75f9f8816d4891bbd88f474cff64e3 = L.popup({"maxWidth": 200});
+
+        
+            var html_2be46ba024874ae5a47bcce89f1054c5 = $(`<div id="html_2be46ba024874ae5a47bcce89f1054c5" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Nevada</strong> <br><strong><b>Total Cases : 22930</striong><br><strong><font color= red>Deaths : </font>537</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_4a75f9f8816d4891bbd88f474cff64e3.setContent(html_2be46ba024874ae5a47bcce89f1054c5);
+        
+
+        marker_d4a97484853d4f01a1e6ed4aa179e46d.bindPopup(popup_4a75f9f8816d4891bbd88f474cff64e3)
+        ;
+
+        
+    
+    
+            var circle_marker_f1a31f0b2a084af582cef2c7443d39d1 = L.circleMarker(
+                [43.193852, -71.572395],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_8817f5a5408d4ac6aecfe40785d0b325 = L.marker(
+                [43.193852, -71.572395],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_413d340a11e14368a67f6cc6b69cc256 = L.popup({"maxWidth": 200});
+
+        
+            var html_d39c31b1eb7f4395a79efdd1dd9f93ba = $(`<div id="html_d39c31b1eb7f4395a79efdd1dd9f93ba" style="width: 100.0%; height: 100.0%;"><strong><b>State  : New Hampshire</strong> <br><strong><b>Total Cases : 5914</striong><br><strong><font color= red>Deaths : </font>382</striong><br><strong><font color=green>Recovered : </font>4684</striong><br></div>`)[0];
+            popup_413d340a11e14368a67f6cc6b69cc256.setContent(html_d39c31b1eb7f4395a79efdd1dd9f93ba);
+        
+
+        marker_8817f5a5408d4ac6aecfe40785d0b325.bindPopup(popup_413d340a11e14368a67f6cc6b69cc256)
+        ;
+
+        
+    
+    
+            var circle_marker_410106c3943c4f8780116f8c44758092 = L.circleMarker(
+                [40.058324, -74.405661],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_d819fc6482ab4ed597e64fa011250bae = L.marker(
+                [40.058324, -74.405661],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_f746098c78a148b6bc922763333a3046 = L.popup({"maxWidth": 200});
+
+        
+            var html_60b1042df23a45108b7c5a52b6ae35d1 = $(`<div id="html_60b1042df23a45108b7c5a52b6ae35d1" style="width: 100.0%; height: 100.0%;"><strong><b>State  : New Jersey</strong> <br><strong><b>Total Cases : 174628</striong><br><strong><font color= red>Deaths : </font>15479</striong><br><strong><font color=green>Recovered : </font>31014</striong><br></div>`)[0];
+            popup_f746098c78a148b6bc922763333a3046.setContent(html_60b1042df23a45108b7c5a52b6ae35d1);
+        
+
+        marker_d819fc6482ab4ed597e64fa011250bae.bindPopup(popup_f746098c78a148b6bc922763333a3046)
+        ;
+
+        
+    
+    
+            var circle_marker_bb449a71d37248848d0fa0d4625c939e = L.circleMarker(
+                [34.97273, -105.03236299999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_25ddf2422ec342c8987d738e52e45fea = L.marker(
+                [34.97273, -105.03236299999999],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_5e490c8e3c384b078b38b0b8764c92e5 = L.popup({"maxWidth": 200});
+
+        
+            var html_1fd97a361e4b45ee9ef18200ea6b2861 = $(`<div id="html_1fd97a361e4b45ee9ef18200ea6b2861" style="width: 100.0%; height: 100.0%;"><strong><b>State  : New Mexico</strong> <br><strong><b>Total Cases : 14549</striong><br><strong><font color= red>Deaths : </font>539</striong><br><strong><font color=green>Recovered : </font>6181</striong><br></div>`)[0];
+            popup_5e490c8e3c384b078b38b0b8764c92e5.setContent(html_1fd97a361e4b45ee9ef18200ea6b2861);
+        
+
+        marker_25ddf2422ec342c8987d738e52e45fea.bindPopup(popup_5e490c8e3c384b078b38b0b8764c92e5)
+        ;
+
+        
+    
+    
+            var circle_marker_81dc640f684d4a37bec288fcc66c1cde = L.circleMarker(
+                [43.299428000000006, -74.217933],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_bf10562c139d45efae05d785a5073eed = L.marker(
+                [43.299428000000006, -74.217933],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_9708ff1215104f55804d74bbffe6ff9c = L.popup({"maxWidth": 200});
+
+        
+            var html_06bb5f5e90764a5090da8483bf736f63 = $(`<div id="html_06bb5f5e90764a5090da8483bf736f63" style="width: 100.0%; height: 100.0%;"><strong><b>State  : New York</strong> <br><strong><b>Total Cases : 400299</striong><br><strong><font color= red>Deaths : </font>32307</striong><br><strong><font color=green>Recovered : </font>71371</striong><br></div>`)[0];
+            popup_9708ff1215104f55804d74bbffe6ff9c.setContent(html_06bb5f5e90764a5090da8483bf736f63);
+        
+
+        marker_bf10562c139d45efae05d785a5073eed.bindPopup(popup_9708ff1215104f55804d74bbffe6ff9c)
+        ;
+
+        
+    
+    
+            var circle_marker_6c788ea56cb6436181d8074faf77d4f6 = L.circleMarker(
+                [35.759572999999996, -79.0193],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_4d9a9d5a42c4432785e3a3221c19dccf = L.marker(
+                [35.759572999999996, -79.0193],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_9bc755a3613e4400afad2b1c54795e5f = L.popup({"maxWidth": 200});
+
+        
+            var html_cbce23a43e324577a58a23f10825fb8e = $(`<div id="html_cbce23a43e324577a58a23f10825fb8e" style="width: 100.0%; height: 100.0%;"><strong><b>State  : North Carolina</strong> <br><strong><b>Total Cases : 83793</striong><br><strong><font color= red>Deaths : </font>1499</striong><br><strong><font color=green>Recovered : </font>55318</striong><br></div>`)[0];
+            popup_9bc755a3613e4400afad2b1c54795e5f.setContent(html_cbce23a43e324577a58a23f10825fb8e);
+        
+
+        marker_4d9a9d5a42c4432785e3a3221c19dccf.bindPopup(popup_9bc755a3613e4400afad2b1c54795e5f)
+        ;
+
+        
+    
+    
+            var circle_marker_51e46666eac940e7b4f2ff57c087318d = L.circleMarker(
+                [47.551493, -101.002012],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_d223707f975b43579b61212f8a9efcd3 = L.marker(
+                [47.551493, -101.002012],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_9a7caf7716424afe974545a9a3737c19 = L.popup({"maxWidth": 200});
+
+        
+            var html_521072e751f64bf7b64b899b21a8f262 = $(`<div id="html_521072e751f64bf7b64b899b21a8f262" style="width: 100.0%; height: 100.0%;"><strong><b>State  : North Dakota</strong> <br><strong><b>Total Cases : 3858</striong><br><strong><font color= red>Deaths : </font>89</striong><br><strong><font color=green>Recovered : </font>3350</striong><br></div>`)[0];
+            popup_9a7caf7716424afe974545a9a3737c19.setContent(html_521072e751f64bf7b64b899b21a8f262);
+        
+
+        marker_d223707f975b43579b61212f8a9efcd3.bindPopup(popup_9a7caf7716424afe974545a9a3737c19)
+        ;
+
+        
+    
+    
+            var circle_marker_f46d96d94f0845d18b8a2b243b6aebe5 = L.circleMarker(
+                [40.417287, -82.907123],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_f9bc0c688e7e4e02a2fa9bd10ad32f84 = L.marker(
+                [40.417287, -82.907123],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_20c50980d24244a7a1ee28fc3a039717 = L.popup({"maxWidth": 200});
+
+        
+            var html_b554bd6107164069a884e0768dfe9ea1 = $(`<div id="html_b554bd6107164069a884e0768dfe9ea1" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Ohio</strong> <br><strong><b>Total Cases : 57956</striong><br><strong><font color= red>Deaths : </font>2927</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_20c50980d24244a7a1ee28fc3a039717.setContent(html_b554bd6107164069a884e0768dfe9ea1);
+        
+
+        marker_f9bc0c688e7e4e02a2fa9bd10ad32f84.bindPopup(popup_20c50980d24244a7a1ee28fc3a039717)
+        ;
+
+        
+    
+    
+            var circle_marker_b3cd84a65fc641dd987362a52f6ecd33 = L.circleMarker(
+                [35.007752, -97.092877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_092f5912dd784902b7e02e22e00642bd = L.marker(
+                [35.007752, -97.092877],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_9680f890946e450baeecb6b1f17f11ec = L.popup({"maxWidth": 200});
+
+        
+            var html_c380cdc64cf6448e9a039dbbe7c5eccf = $(`<div id="html_c380cdc64cf6448e9a039dbbe7c5eccf" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Oklahoma</strong> <br><strong><b>Total Cases : 16362</striong><br><strong><font color= red>Deaths : </font>399</striong><br><strong><font color=green>Recovered : </font>12432</striong><br></div>`)[0];
+            popup_9680f890946e450baeecb6b1f17f11ec.setContent(html_c380cdc64cf6448e9a039dbbe7c5eccf);
+        
+
+        marker_092f5912dd784902b7e02e22e00642bd.bindPopup(popup_9680f890946e450baeecb6b1f17f11ec)
+        ;
+
+        
+    
+    
+            var circle_marker_966c504c1b02499cb4a5eb72bac5cdd8 = L.circleMarker(
+                [43.804133, -120.554201],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_0886d7dea6f74d6bb39bb4c6e7d466eb = L.marker(
+                [43.804133, -120.554201],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_50766ebdc5f4486381df349d4a19c6f9 = L.popup({"maxWidth": 200});
+
+        
+            var html_7fe0b1a923544007a16fd7bb48334793 = $(`<div id="html_7fe0b1a923544007a16fd7bb48334793" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Oregon</strong> <br><strong><b>Total Cases : 10402</striong><br><strong><font color= red>Deaths : </font>218</striong><br><strong><font color=green>Recovered : </font>2846</striong><br></div>`)[0];
+            popup_50766ebdc5f4486381df349d4a19c6f9.setContent(html_7fe0b1a923544007a16fd7bb48334793);
+        
+
+        marker_0886d7dea6f74d6bb39bb4c6e7d466eb.bindPopup(popup_50766ebdc5f4486381df349d4a19c6f9)
+        ;
+
+        
+    
+    
+            var circle_marker_25fe4832d5d743f6b57b9e53997d637c = L.circleMarker(
+                [41.203322, -77.194525],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_e62a7005def745189dc69e7fbbdc0272 = L.marker(
+                [41.203322, -77.194525],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_3deb3745e25f41faadb81f2f6383119b = L.popup({"maxWidth": 200});
+
+        
+            var html_f073e8939e7941f3842f8d2d8352fcf7 = $(`<div id="html_f073e8939e7941f3842f8d2d8352fcf7" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Pennsylvania</strong> <br><strong><b>Total Cases : 93876</striong><br><strong><font color= red>Deaths : </font>6880</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_3deb3745e25f41faadb81f2f6383119b.setContent(html_f073e8939e7941f3842f8d2d8352fcf7);
+        
+
+        marker_e62a7005def745189dc69e7fbbdc0272.bindPopup(popup_3deb3745e25f41faadb81f2f6383119b)
+        ;
+
+        
+    
+    
+            var circle_marker_32b272a42f334d98ba9740f9ffaad26f = L.circleMarker(
+                [18.220833, -66.590149],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_c671f879334f4488bbceb0ee19776068 = L.marker(
+                [18.220833, -66.590149],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_9b729567949a4f16a9b460ed323cd5fe = L.popup({"maxWidth": 200});
+
+        
+            var html_6866dd506c8343e790327fbc3d7dd946 = $(`<div id="html_6866dd506c8343e790327fbc3d7dd946" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Puerto Rico</strong> <br><strong><b>Total Cases : 8714</striong><br><strong><font color= red>Deaths : </font>157</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_9b729567949a4f16a9b460ed323cd5fe.setContent(html_6866dd506c8343e790327fbc3d7dd946);
+        
+
+        marker_c671f879334f4488bbceb0ee19776068.bindPopup(popup_9b729567949a4f16a9b460ed323cd5fe)
+        ;
+
+        
+    
+    
+            var circle_marker_6269038496b74d59a2c0e8d75d1906a3 = L.circleMarker(
+                [41.580095, -71.477429],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_228572a5ec53445db03f5bed4a29047a = L.marker(
+                [41.580095, -71.477429],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_12c9ac7fdcb248a58bdec581633917f8 = L.popup({"maxWidth": 200});
+
+        
+            var html_3f64c3a9ee7b40a98ec36194a5207d36 = $(`<div id="html_3f64c3a9ee7b40a98ec36194a5207d36" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Rhode Island</strong> <br><strong><b>Total Cases : 17312</striong><br><strong><font color= red>Deaths : </font>976</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_12c9ac7fdcb248a58bdec581633917f8.setContent(html_3f64c3a9ee7b40a98ec36194a5207d36);
+        
+
+        marker_228572a5ec53445db03f5bed4a29047a.bindPopup(popup_12c9ac7fdcb248a58bdec581633917f8)
+        ;
+
+        
+    
+    
+            var circle_marker_4c8079b9b84949028609597e368590b1 = L.circleMarker(
+                [33.836081, -81.163725],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_08045bbcaa7b4e41811dec86e486ca53 = L.marker(
+                [33.836081, -81.163725],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_d98433f7d03b4ea28a8b8226de6b1163 = L.popup({"maxWidth": 200});
+
+        
+            var html_449bc7f2c87e420db421479d844b66ad = $(`<div id="html_449bc7f2c87e420db421479d844b66ad" style="width: 100.0%; height: 100.0%;"><strong><b>State  : South Carolina</strong> <br><strong><b>Total Cases : 54538</striong><br><strong><font color= red>Deaths : </font>940</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_d98433f7d03b4ea28a8b8226de6b1163.setContent(html_449bc7f2c87e420db421479d844b66ad);
+        
+
+        marker_08045bbcaa7b4e41811dec86e486ca53.bindPopup(popup_d98433f7d03b4ea28a8b8226de6b1163)
+        ;
+
+        
+    
+    
+            var circle_marker_28065769ef984ad197cd1f455febc2aa = L.circleMarker(
+                [43.969515, -99.901813],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_82b17ac1a7114e6387eb66dd912fcbbc = L.marker(
+                [43.969515, -99.901813],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_ba8818219c6248c189aad57a31ee4155 = L.popup({"maxWidth": 200});
+
+        
+            var html_9b95485ed8354d7b9a61041b64d3c1b6 = $(`<div id="html_9b95485ed8354d7b9a61041b64d3c1b6" style="width: 100.0%; height: 100.0%;"><strong><b>State  : South Dakota</strong> <br><strong><b>Total Cases : 7105</striong><br><strong><font color= red>Deaths : </font>97</striong><br><strong><font color=green>Recovered : </font>6062</striong><br></div>`)[0];
+            popup_ba8818219c6248c189aad57a31ee4155.setContent(html_9b95485ed8354d7b9a61041b64d3c1b6);
+        
+
+        marker_82b17ac1a7114e6387eb66dd912fcbbc.bindPopup(popup_ba8818219c6248c189aad57a31ee4155)
+        ;
+
+        
+    
+    
+            var circle_marker_078db43bd9124987a56196614aea7c0c = L.circleMarker(
+                [35.517491, -86.58044699999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_f55ecc4269c04253a1a1018e60251f63 = L.marker(
+                [35.517491, -86.58044699999999],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_d6898934d0b3485493de0c998db5787f = L.popup({"maxWidth": 200});
+
+        
+            var html_fac1dbe1c1374fada4610e05812360bf = $(`<div id="html_fac1dbe1c1374fada4610e05812360bf" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Tennessee</strong> <br><strong><b>Total Cases : 51509</striong><br><strong><font color= red>Deaths : </font>646</striong><br><strong><font color=green>Recovered : </font>31020</striong><br></div>`)[0];
+            popup_d6898934d0b3485493de0c998db5787f.setContent(html_fac1dbe1c1374fada4610e05812360bf);
+        
+
+        marker_f55ecc4269c04253a1a1018e60251f63.bindPopup(popup_d6898934d0b3485493de0c998db5787f)
+        ;
+
+        
+    
+    
+            var circle_marker_05442fc9fd894d27bef0813aad84e9ac = L.circleMarker(
+                [31.968598999999998, -99.901813],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_8ee5d339795343bbb0a8b3f9ba7961a8 = L.marker(
+                [31.968598999999998, -99.901813],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_ab8fef1185cf413b98a0ff5c9d02ddb1 = L.popup({"maxWidth": 200});
+
+        
+            var html_d99b1adc97f94a7aa200dc74cc0c2f22 = $(`<div id="html_d99b1adc97f94a7aa200dc74cc0c2f22" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Texas</strong> <br><strong><b>Total Cases : 240111</striong><br><strong><font color= red>Deaths : </font>3013</striong><br><strong><font color=green>Recovered : </font>122996</striong><br></div>`)[0];
+            popup_ab8fef1185cf413b98a0ff5c9d02ddb1.setContent(html_d99b1adc97f94a7aa200dc74cc0c2f22);
+        
+
+        marker_8ee5d339795343bbb0a8b3f9ba7961a8.bindPopup(popup_ab8fef1185cf413b98a0ff5c9d02ddb1)
+        ;
+
+        
+    
+    
+            var circle_marker_7c56f42222e04f52a75f097425b75905 = L.circleMarker(
+                [39.32098, -111.093731],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_7e7caaad9dc5418f909682487987e62e = L.marker(
+                [39.32098, -111.093731],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_b71c9c563f3644519b3ead0efa7994e6 = L.popup({"maxWidth": 200});
+
+        
+            var html_ff98b4f7fb85409a984e41c795478a39 = $(`<div id="html_ff98b4f7fb85409a984e41c795478a39" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Utah</strong> <br><strong><b>Total Cases : 25563</striong><br><strong><font color= red>Deaths : </font>190</striong><br><strong><font color=green>Recovered : </font>14448</striong><br></div>`)[0];
+            popup_b71c9c563f3644519b3ead0efa7994e6.setContent(html_ff98b4f7fb85409a984e41c795478a39);
+        
+
+        marker_7e7caaad9dc5418f909682487987e62e.bindPopup(popup_b71c9c563f3644519b3ead0efa7994e6)
+        ;
+
+        
+    
+    
+            var circle_marker_ed3d9f16ac394a0d85d918f431f3377d = L.circleMarker(
+                [44.558803000000005, -72.577841],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_df9214caac2a4173873170afe4078fbf = L.marker(
+                [44.558803000000005, -72.577841],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_e91e015b3f1e418fabf81c0ce156e9f0 = L.popup({"maxWidth": 200});
+
+        
+            var html_a16a14b92b644a7f88aec2812f8c6972 = $(`<div id="html_a16a14b92b644a7f88aec2812f8c6972" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Vermont</strong> <br><strong><b>Total Cases : 1251</striong><br><strong><font color= red>Deaths : </font>56</striong><br><strong><font color=green>Recovered : </font>1022</striong><br></div>`)[0];
+            popup_e91e015b3f1e418fabf81c0ce156e9f0.setContent(html_a16a14b92b644a7f88aec2812f8c6972);
+        
+
+        marker_df9214caac2a4173873170afe4078fbf.bindPopup(popup_e91e015b3f1e418fabf81c0ce156e9f0)
+        ;
+
+        
+    
+    
+            var circle_marker_d21387f58b1b472b9595f61d3444b1d2 = L.circleMarker(
+                [37.431573, -78.656894],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_07931cf13e1146aea6d63e8d0d72e0af = L.marker(
+                [37.431573, -78.656894],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_36ebbbf542a9415681a4f4da07964aea = L.popup({"maxWidth": 200});
+
+        
+            var html_36e7d9ccc19a42f183786fb5860c0f0d = $(`<div id="html_36e7d9ccc19a42f183786fb5860c0f0d" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Virginia</strong> <br><strong><b>Total Cases : 66740</striong><br><strong><font color= red>Deaths : </font>1881</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_36ebbbf542a9415681a4f4da07964aea.setContent(html_36e7d9ccc19a42f183786fb5860c0f0d);
+        
+
+        marker_07931cf13e1146aea6d63e8d0d72e0af.bindPopup(popup_36ebbbf542a9415681a4f4da07964aea)
+        ;
+
+        
+    
+    
+            var circle_marker_11bda6aa28044149a510a22acc8c062c = L.circleMarker(
+                [47.751073999999996, -120.74013899999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_e51c4fd1e50347bdad3aac552ca2322c = L.marker(
+                [47.751073999999996, -120.74013899999999],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_9305aba810054a9ca32e9f944393ba4e = L.popup({"maxWidth": 200});
+
+        
+            var html_6db89698fa3a48bcbdd217ecdd80a99c = $(`<div id="html_6db89698fa3a48bcbdd217ecdd80a99c" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Washington</strong> <br><strong><b>Total Cases : 38517</striong><br><strong><font color= red>Deaths : </font>1370</striong><br><strong><font color=green>Recovered : </font>–</striong><br></div>`)[0];
+            popup_9305aba810054a9ca32e9f944393ba4e.setContent(html_6db89698fa3a48bcbdd217ecdd80a99c);
+        
+
+        marker_e51c4fd1e50347bdad3aac552ca2322c.bindPopup(popup_9305aba810054a9ca32e9f944393ba4e)
+        ;
+
+        
+    
+    
+            var circle_marker_f54db79e7c0549ed940ee423850ef6e1 = L.circleMarker(
+                [38.597626, -80.454903],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_7787f4367049403c83e4cf52ea6631dd = L.marker(
+                [38.597626, -80.454903],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_82cda6489c414e3f913c37187db0e6bb = L.popup({"maxWidth": 200});
+
+        
+            var html_383e96093ded418cb8dca20f30c1ffc1 = $(`<div id="html_383e96093ded418cb8dca20f30c1ffc1" style="width: 100.0%; height: 100.0%;"><strong><b>State  : West Virginia</strong> <br><strong><b>Total Cases : 3461</striong><br><strong><font color= red>Deaths : </font>95</striong><br><strong><font color=green>Recovered : </font>2518</striong><br></div>`)[0];
+            popup_82cda6489c414e3f913c37187db0e6bb.setContent(html_383e96093ded418cb8dca20f30c1ffc1);
+        
+
+        marker_7787f4367049403c83e4cf52ea6631dd.bindPopup(popup_82cda6489c414e3f913c37187db0e6bb)
+        ;
+
+        
+    
+    
+            var circle_marker_1693268becc742879d8f02350c976abc = L.circleMarker(
+                [43.784440000000004, -88.787868],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_f87954613b064fefa874209837537624 = L.marker(
+                [43.784440000000004, -88.787868],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_0b2fd413311c48c4bab1c7c8cfe04ee1 = L.popup({"maxWidth": 200});
+
+        
+            var html_30479160dbcf4ca6bc241f490e9026e4 = $(`<div id="html_30479160dbcf4ca6bc241f490e9026e4" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Wisconsin</strong> <br><strong><b>Total Cases : 35318</striong><br><strong><font color= red>Deaths : </font>805</striong><br><strong><font color=green>Recovered : </font>25542</striong><br></div>`)[0];
+            popup_0b2fd413311c48c4bab1c7c8cfe04ee1.setContent(html_30479160dbcf4ca6bc241f490e9026e4);
+        
+
+        marker_f87954613b064fefa874209837537624.bindPopup(popup_0b2fd413311c48c4bab1c7c8cfe04ee1)
+        ;
+
+        
+    
+    
+            var circle_marker_7231dcd2ee434b2d8bb61dbd90136b28 = L.circleMarker(
+                [43.075967999999996, -107.29028400000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+            var marker_957d6600400b460d99be2bf941342802 = L.marker(
+                [43.075967999999996, -107.29028400000001],
+                {}
+            ).addTo(map_6201869237324af680468ddf6e2b62fd);
+        
+    
+        var popup_5f3541e04a884468ab7beb4deec3bdf5 = L.popup({"maxWidth": 200});
+
+        
+            var html_1af37d0405994a9badab1bd7da5a3258 = $(`<div id="html_1af37d0405994a9badab1bd7da5a3258" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Wyoming</strong> <br><strong><b>Total Cases : 1675</striong><br><strong><font color= red>Deaths : </font>20</striong><br><strong><font color=green>Recovered : </font>1172</striong><br></div>`)[0];
+            popup_5f3541e04a884468ab7beb4deec3bdf5.setContent(html_1af37d0405994a9badab1bd7da5a3258);
+        
+
+        marker_957d6600400b460d99be2bf941342802.bindPopup(popup_5f3541e04a884468ab7beb4deec3bdf5)
+        ;
+
+        
+    
+</script>
